@@ -28,3 +28,8 @@ with open("dotaWD.txt", "r",encoding='utf-8') as f:  # 多个用户id储存在tx
     print('end')
 ```
 嘛，未来考虑下再写个脚本抓取不同版块的版主id做个数据库好了。真正的赞少丢人大会就可以开始辣
+
+# Todo
+做一个格式如下的数据库，拉清单
+MMDDYY Time
+uid 版块 赞数
